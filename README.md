@@ -6,5 +6,5 @@ sh -c 'opkg update && opkg install python3 python3-pip && pip3 install flask && 
 FAST DELETE: 
 sh -c 'AUTOSTART=/jffs/scripts/services-start; [ -f "$AUTOSTART" ] && sed -i "/sing-box-script\/app.py/d" $AUTOSTART; rm -f /jffs/addons/sing-box-script/app.py; logger "[uninstall] sing-box-script app.py удалён." &'
 
-VERSION SCRIPT: 0.1 BETA
+SCRIPT VERSION: 0.1 BETA
 
